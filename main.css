@@ -1,0 +1,65 @@
+/* livvic-regular - latin */
+@font-face {
+ font-family: 'Livvic';
+ font-style: normal;
+ font-weight: 400;
+ src: local(''),
+ url('../fonts/livvic-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+ url('../fonts/livvic-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* livvic-700 - latin */
+@font-face {
+ font-family: 'Livvic';
+ font-style: normal;
+ font-weight: 700;
+ src: local(''),
+ url('../fonts/livvic-v8-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+ url('../fonts/livvic-v8-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+ .bag{
+   padding-top: 32px;
+   padding-bottom: 32px;
+   padding-left: 24px;
+   padding-right: 24px;
+
+ }
+.bg-section {
+ background-color: #004047;
+}
+.taim{
+ width: 350px;
+ background-color: #012F34;
+}
+.taim{
+ margin-left: 20px;
+ margin-bottom: 50px;
+}
+.heading {
+ color: aliceblue ;
+}
+.list{
+ display: flex;
+ flex-wrap: wrap;
+ list-style: none;
+ padding: 0;
+}
+.heading1{
+ font-family: 'Livvic';
+ font-style: normal;
+ font-weight: bold;
+ font-size: 18px;
+ line-height: 28px;
+ color: #79C8C7;
+}
+.paragrif{
+ font-family: 'Livvic';
+ font-size: 15px;
+ line-height: 25px;
+ color: #FFFFFF;
+}
+.img{
+ position: relative;
+ z-index: 1;
+ transform: translateY(50%);
+}
